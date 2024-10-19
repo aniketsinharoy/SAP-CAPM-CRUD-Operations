@@ -28,6 +28,12 @@ File or Folder | Purpose
 - Run `cds deploy --to sqlite`
 - Run `cds watch`
 
+## To Test CRUD Operations in Postman
+
+- Download the "SAP CAPM CRUD Operations.postman_collection" file
+- Import in Postman
+- Test CRUD Operations
+
 
 ## Learn More
 
