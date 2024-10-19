@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome to your new project.
+Welcome to the introduction to CRUD Operations in SAP CAPM.
 
 It contains these folders and files, following our recommended project layout:
 
@@ -15,9 +15,18 @@ File or Folder | Purpose
 
 ## Next Steps
 
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
+### Running CAPM via VS Code
+
+- Install SAP CDS if not installed
+- Open a new terminal and run `npm i`
+- Run `cds deploy --to sqlite`
+- Run `cds run --in-memory`
+
+### Running CAPM via SAP BAS
+
+- Open a new terminal and run `npm i`
+- Run `cds deploy --to sqlite`
+- Run `cds watch`
 
 
 ## Learn More
